@@ -1,0 +1,22 @@
+Comentarios de echi
+
+voletear esto
+target
+0    343
+1    157
+Name: count, dtype: int64
+La relacion entre clases es 157/343 = 0.46 siendo la mayoritaria la clase representada por el 0 por lo que estamos ante un dataset desbalanceado
+
+A priori hacer un split 400 100 para desarrollo validacion suena razonable , estamos dejando 20% de nuestro dataset para validar.
+
+Capaz es un poco mucho ese porcentaje pero creo que eso aseguraria que los resultados obtenidos tendran un poco mas de robustez.
+
+Dentro de desarrollo capaz podemos hacer algo como k folds con k = 4 para sacarle un poco mas el jugo a los datos.
+
+train = 80% validacion = 20%
+
+explicar como separamos los datos y por que hacemos de esa forma POR ARRIBA
+
+
+
+En el ejercicio 3 voleteriar todos los hiperparametros comentados
