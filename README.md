@@ -1,7 +1,7 @@
 # Clasificación de Expresiones Genómicas
 
 ## Introducción
-Dos grupos de investigación del ![CONICET](https://www.conicet.gov.ar/) han unido esfuerzos para combinar tecnologías de secuenciación de nueva generación con inteligencia artificial. Su objetivo es analizar mediciones de ARN de 200 genes recolectados de pacientes con lesiones pre-tumorales, con la finalidad de comprender cómo las células en estado de hiperplasia pueden evolucionar hacia tumores malignos. Para lograrlo, llevaron a cabo un estudio utilizando muestras de hiperplasias de pacientes que fueron monitoreados durante 5 años, con el fin de identificar la transformación hacia neoplasias o hiperplasias más agresivas. Estas muestras se almacenaron en un biobanco y se etiquetaron según el pronóstico observado.
+Dos grupos de investigación del ![CONICET](https://www.conicet.gov.ar/) han unido esfuerzos para combinar tecnologías de secuenciación de nueva generación con inteligencia artificial. Su objetivo es analizar mediciones de ![ARN](https://es.wikipedia.org/wiki/ARN_mensajero) de 200 ![genes](https://es.wikipedia.org/wiki/Gen) recolectados de pacientes con lesiones ![pre-tumorales](https://en.wikipedia.org/wiki/Hyperplasia), con la finalidad de comprender cómo las células en estado de hiperplasia pueden evolucionar hacia ![tumores malignos](https://en.wikipedia.org/wiki/Neoplasm). Para lograrlo, llevaron a cabo un estudio utilizando muestras de hiperplasias de pacientes que fueron monitoreados durante 5 años, con el fin de identificar la transformación hacia neoplasias o hiperplasias más agresivas. Estas muestras se almacenaron en un biobanco y se etiquetaron según el pronóstico observado.
 
 <img src='/imagenes/cancer.jpg' width='500' height='350'>
 
