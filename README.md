@@ -184,7 +184,7 @@ Si la curva de entrenamiento muestra un alto rendimiento pero la curva de valida
 
 A continuación se presentan las curvas de complejidad de Árboles de decisión y SVM. En ambos casos, se mantuvieron todos los hiperparámetros de los mejores modelos hallados (en cuadros 4 y 6 respectivamente), variando uno solo de ellos en cada caso: la profundidad máxima para árboles y el parámetro C para SVM.
 
-![Curvas de complejidad para Árboles de Decisión y SVM. Los valores que minimizan el error en el set de evaluación son $max depth = 4$ para Árboles y $c = 3.051$ para SVM.](/imagenes/complejidad-arbol-svm.png)
+![Curvas de complejidad para Árboles de Decisión y SVM. Los valores que minimizan el error en el set de evaluación son max depth = 4 para Árboles y c = 3.051 para SVM.](/imagenes/complejidad-arbol-svm.png)
 
 Estos son útiles para estudiar cómo afecta un hiperparámetro a la performance del modelo. En ambos casos (para C y la profundidad máxima) observamos un comportamiento similar en cuanto a su punto óptimo: para valores muy pequeños del parámetro, aumentarlo es beneficioso porque aún tenemos mucho error en el conjunto de entrenamiento. Sin embargo, también se observa que existe un punto en el que el decrecimiento del error en las curvas se detiene. En el caso de los Árboles, parece rápidamente alcanzar un comportamiento constante o asintótico, mientras que en el caso de SVM parece primero tener un leve crecimiento luego del mínimo, antes de alcanzar el régimen asintótico.
 
@@ -198,7 +198,7 @@ Construimos un modelo RandomForest con 200 árboles en base a nuestro conjunto d
 
 En la Figura \ref{complejidad_rf} presenta la curva de complejidad para el hiperparámetro $max\_features$, manteniendo los demás hiperparámetros en el valor default de scikit-learn.
 
-![Curvas de complejidad para $max\_features$ en Random Forest con 200 árboles.](/imagenes/complejidad-rf.png)
+![Curvas de complejidad para max_features en Random Forest con 200 árboles.](/imagenes/complejidad-rf.png)
 
 Mientras que en el set de entrenamiento el error es siempre nulo (es decir, el valor de AUC da siempre 1), el error en test comienza con tendencia decreciente.
 
@@ -222,12 +222,7 @@ El modelo seleccionado es el SVM, según los hiperparámetros encontrados en el 
 
 ### AUC-ROC sobre el conjunto de evaluación
 
-El modelo SVM entrenado obtuvo un AUC-ROC de 0.870 sobre el conjunto de datos de validación (es decir, el 30 por ciento del dataset original que fue separado en un comienzo). Esto indica que es esperable que el modelo tenga una buena capacidad para discriminar entre las clases positivas y negativas.
-
-### Análisis de Bootstrap
-
-- Se realizó un análisis de bootstrap con $n = 900$ repeticiones para tener una mejor aproximación del AUC y también evaluar la estabilidad del desempeño del modelo.
-- El promedio de los valores AUC-ROC obtenidos en las repeticiones del bootstrap fue de 0.870.
+El modelo SVM entrenado obtuvo un AUC-ROC de 0.870 sobre el conjunto de datos de validación (es decir, el 30% del dataset original que fue separado en un comienzo). Esto indica que es esperable que el modelo tenga una buena capacidad para discriminar entre las clases positivas y negativas.
 
 ### Comentarios Adicionales
 
