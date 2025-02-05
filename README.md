@@ -40,6 +40,7 @@ La baja varianza entre las mediciones de nuestros folds sugiere que no existe un
 ### Explorando algunos hiperparámetros
 
 Para cada combinación de hiperparámetros validamos sus resultados como en el punto anterior.
+
 **Rendimiento del árbol de decisión con diferentes combinaciones de hiperparámetros**
 | Combinación de hiperparámetros | Criterio de corte | Train Accuracy | Test Accuracy |
 |--------------------------------|-------------------|----------------|---------------|
